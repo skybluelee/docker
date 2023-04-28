@@ -35,7 +35,7 @@ jib {
     }
     // Nexus Registry URL 및 Tag 입력
     to {
-        image = 'ec2-13-230-159-214.ap-northeast-1.compute.amazonaws.com:5000/test'
+        image = 'ec2.ap-northeast-1.compute.amazonaws.com:5000/test'
         tags = ['1.0']
     }
     allowInsecureRegistries = true
