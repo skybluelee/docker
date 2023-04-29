@@ -1,9 +1,9 @@
 def mainDir="Part2_Docker/Chapter06/3-2_ecr-jenkins-docker"
-def region="<AWS Region>"
-def ecrUrl="<AWS ECR URL>"
-def repository="<Image Repository Name>"
-def deployHost="<Deploy VM Private IP>"
-def tagName="<Image Tag Name>"
+def region="ap-northeast-1"
+def ecrUrl="235050266187.dkr.ecr.ap-northeast-1.amazonaws.com"
+def repository="test"
+def deployHost="ip-10-0-5-36.ap-northeast-1.compute.internal"
+def tagName="1.0"
 
 
 pipeline {
